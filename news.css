@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: rgba(235, 14, 14, 0.925);
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px; 
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header {
+    background-image: url('images/black.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 10px 20px; 
+}
+
+
+.auth_buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth_button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: rgba(235, 14, 14, 0.925);;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.auth_button:hover {
+    background-color: crimson;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #E5E7EB;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+nav ul li a:hover {
+    color: red; 
+}
+nav ul li a.active {
+    color: red;
+    font-weight: bold; 
+}
+
+main {
+    padding: 20px; 
+}
+footer {
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    background-image: url('images/black.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
+p{
+    margin-left: 20px;
+}
+h2{
+    margin-left: 20px;  
+}
+
+.footer-content {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+
+article {
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 20px;
+    background-color: #E5E7EB;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+article:hover {
+    background-color: rgba(192, 192, 192, 0);
+}
+
+.img {
+    height: 200px;
+    width: 200px;
+    border-radius: 5%;
+    border-color: black;
+}
